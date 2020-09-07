@@ -167,7 +167,7 @@ class GoldenArches(telepot.helper.ChatHandler):
 
             #return the final result to user
             bot.sendMessage(chat_id, 'Thank you for taking the test.\nYour risk tolerance level is : '+str(self.response['Risk_Tolerance_Level'])+' !\nYour final score is : '+str(self.response['Final_Score'])+' !')
-            #self.indicator = "Q1"
+            
 
 TOKEN = '1279765543:AAHPN_5QmYRW4qVCV1N0Uf-xf9J2KOOFAVA'
 
