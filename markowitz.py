@@ -10,7 +10,6 @@ from datetime import datetime
 def lambda_handler(event, context):
 
   assets =  ["C6L.SI", "C38U.SI", "ES3.SI", "AAPL", "GOOG", "XOM", "GE", "PFE", "GSK", "PEP", "NSRGY", "GLD", "VOO"]
-  # assets = ["C38U.SI", "D05.SI", "S63.SI", "C6L.SI", "QQQ", "XLV", "VNQ", "GDX", "XLF", "XLY", "XLE", "XLI", "XLU", "XLP", "VOX"]
 
   #Get the stock starting date
   stockStartDate = '2016-06-02'
