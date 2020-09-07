@@ -1,4 +1,4 @@
-#API from Finnhub (https://finnhub.io/), implemented in "deploy" using django
+#API from Finnhub (https://finnhub.io/), implemented in "deploy" using Django
 
 import requests
 
